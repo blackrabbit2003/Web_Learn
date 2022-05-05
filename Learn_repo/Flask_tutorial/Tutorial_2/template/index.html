@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Pham Trung Kien Dzai</title>
+    </head>
+    <body>
+        <h1>Information</h1>
+        <p>Hello!!!</p>
+        {% for i in content %}
+            {% if i == "Tim" %}
+                <p>{{i}}</p>
+            {% elif i == "Joe" %}
+                <p>{{i}}</p>
+            {% else %}
+                <p>{{i}}</p>
+            {% endif %}       
+        {% endfor %}
+    </body>
+</html>
